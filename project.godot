@@ -1,0 +1,21 @@
+; Engine configuration file.
+; Do not edit by hand unless you know what you're doing.
+
+config_version=5
+
+[application]
+config/name="Sau Lung Me"
+run/main_scene="res://scenes/MainMenu.tscn"
+config/version="0.1.0"
+
+[autoload]
+GameState="*res://autoload/GameState.gd"
+AudioManager="*res://autoload/AudioManager.gd"
+DialogueManager="*res://autoload/DialogueManager.gd"
+PuzzleManager="*res://autoload/PuzzleManager.gd"
+
+[display]
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep_width"
