@@ -18,7 +18,7 @@ func present_lines(lines: PackedStringArray) -> void:
 
 func _show_current() -> void:
 	if dialogue_box == null:
-		push_warning("DialogueBox not registered.")
+		push_warning("DialogueBox not registered")
 		return
 	dialogue_box.visible = true
 	if _index >= 0 and _index < _lines.size():
